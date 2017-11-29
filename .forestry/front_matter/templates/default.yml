@@ -5,14 +5,16 @@ fields:
   label: Title
   type: text
   hidden: false
-  default: ''
+  default: This is a test
 - name: date
   label: Date
   type: text
   hidden: false
-  default: 
+  default: ''
+- type: text
+  default: this is another test
 - name: draft
   label: Draft
   type: boolean
   hidden: false
-  default: true
+  default: false
