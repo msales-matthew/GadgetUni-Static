@@ -1737,7 +1737,7 @@
 	@media screen and (max-width: 736px) {
 
 		h1 {
-			font-size: 2em;
+			font-size: 1.75em;
 		}
 
 		h2 {
@@ -1825,6 +1825,7 @@
 		width: -ms-max-content;
 		width: max-content;
 		margin-bottom: 2em;
+		width: 90%;
 	}
 
 		header.major > :first-child {
@@ -2851,7 +2852,7 @@
 				width: 60%;
 			}
 
-			.tiles article:nth-child(6n - 5):before {
+			/*.tiles article:nth-child(6n - 5):before {
 				background-color: #6fc3df;
 			}
 
@@ -2873,7 +2874,7 @@
 
 			.tiles article:nth-child(6n):before {
 				background-color: #87c5a4;
-			}
+			}*/
 
 		@media screen and (max-width: 1280px) {
 
@@ -3401,7 +3402,7 @@
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../img/banner.jpg");
+		background-image: url("../img/Juicer_girl_4_1400x.progressive.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3439,7 +3440,7 @@
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.85;
+			opacity: 0.7;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -3519,7 +3520,8 @@
 		}
 
 		#banner.style2:after {
-			background-color: #8d82c4;
+			/*background-color: #8d82c4;*/
+			background-color: #1b1f23;
 		}
 
 		#banner.style3:after {
@@ -3597,7 +3599,8 @@
 		@media screen and (max-width: 480px) {
 
 			#banner {
-				padding: 6em 0 2em 0 ;
+				/*padding: 6em 0 2em 0 ;*/
+				padding: 4em 0 2em 0;
 			}
 
 				#banner > .inner .content p br {
@@ -3605,7 +3608,7 @@
 				}
 
 				#banner.major {
-					padding: 8em 0 4em 0 ;
+					padding: 4em 0 1em 0 ;
 				}
 
 		}
