@@ -110,7 +110,7 @@ googleAnalytics = ""
       title = "Sushi Bazooka"
       subtitle = "You don’t know what to prepare for a dinner..."
       image = "Roller-Sushi-Roll-Mold-Making-Kit-Tools-Sushi-Bazooka-Rice-Meat-Vegetables-DIY-Making-Kitchen-Gadgets_d024680b-0afd-411a-8045-f1e35aad89d8_2000x.jpg"
-      url = "blogs/bazooka"
+      url = "products/bazooka"
 
     [[params.tiles.showcase]]
       title = "Portable Blender"
