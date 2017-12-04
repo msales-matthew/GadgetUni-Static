@@ -1,16 +1,16 @@
 ---
-title: "TOP GADGETS FOR SURVIVING A ROAD TRIP"
-description: "No matter on which continent you live, there is always this moment in the year, when you just need to take..."
-slug: "top-5-gadgets-survival"
+title: TOP GADGETS FOR SURVIVING A ROAD TRIP
+description: No matter on which continent you live, there is always this moment in
+  the year, when you just need to take...
+slug: top-5-gadgets-survival
 image: blog1.jpeg
-keywords: ""
-categories: 
-    - ""
-    - ""
-date: 2017-10-31T21:28:43-05:00
-draft: false
----
+keywords: ''
+categories:
+- ''
+- ''
+date: 2017-10-31 21:28:43 -0500
 
+---
 <p>No matter on which continent you live, there is always this moment in the year, when you just need to take couple of days off and go on holidays. Some of us love to travel alone, the others go with the family or friends. And those people who decide to share an adventure really often decide to pack some essential stuff to their car and go on a road trip, because it generates the best memories that you keep for many, many months or years.</p>
 
 <p>And as we want to keep only the positive memories, we really need to minimize the risk of unpleasant things. We don’t want to remember that on the 2nd day we got a flat tire or a flat battery in the middle of nowhere and we had to wait several hours for help. Or that the kids or friends got bored so much that all the car started conversations, which switched to the regular quarrel and ruined the whole experience of being together and enjoying it.</p>
