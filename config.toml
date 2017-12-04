@@ -33,7 +33,7 @@ title = "Phone"
 heading = "Page couldn't be found"
 text = "Please visit [this page](/)"
 [params.footer]
-copyright = "2017 GadgetUni v0.2"
+copyright = "2017 GadgetUni v0.3"
 enable = true
 [[params.footer.social]]
 icon = "fa-facebook"
