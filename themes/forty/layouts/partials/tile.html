@@ -1,14 +1,12 @@
 {{ "<!-- Header -->" | safeHTML }}
     <section id="one" class="tiles">
 
-    {{ range .Site.Params.Tiles.AdsTop }}
-        <article>            
-        <script src='https://www.googletagservices.com/tag/js/gpt.js'>
-          googletag.pubads().definePassback('/1360046/MDR-middle-GADGET', [[300, 100], [300, 250]]).display();
-        </script>
-        </article>
-    {{ end }}
-        {{ range .Site.Params.Tiles.showcase }}
+    {{ if .Site.Params.HomepageTop.enable }}
+                {{ partial "homepageAdTop.html" . }}
+            {{ end }}
+
+
+    {{ range .Site.Params.Tiles.showcase }}
         <article>
             <span class="image">
                 <img src="{{ .Site.Params.baseURL }}img/{{ .image }}" alt="" />
@@ -21,11 +19,7 @@
         {{ end }}
 
 
-    {{ range .Site.Params.Tiles.AdsBottom }}
-        <article>
-        <script src='https://www.googletagservices.com/tag/js/gpt.js'>
-          googletag.pubads().definePassback('/1360046/footer-gadgetuni', [[300, 100], [300, 250]]).display();
-        </script>
-        </article>
-    {{ end }}
+    {{ if .Site.Params.HomepageBottom.enable }}
+                {{ partial "homepageAdBottom.html" . }}
+            {{ end }}
     </section>

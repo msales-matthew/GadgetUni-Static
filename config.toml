@@ -196,6 +196,22 @@ googleAnalytics = ""
   [[params.inPageAds.AdUrl]]
   script = "<script src='https://www.googletagservices.com/tag/js/gpt.js'>googletag.pubads().definePassback('/1360046/MDR-middle-GADGET', [[300, 100], [300, 250]]).display();</script>"
 
+    # Homepage Top Ads
+
+  [params.HomepageTop]
+  enable = true
+
+  [[params.HomepageTop.AdUrl]]
+  script = "<script src='https://www.googletagservices.com/tag/js/gpt.js'>googletag.pubads().definePassback('/1360046/MDR-middle-GADGET', [[300, 100], [300, 250]]).display();</script>"
+
+    # Homepage Bottom Ads
+
+  [params.HomepageBottom]
+  enable = true
+
+  [[params.HomepageBottom.AdUrl]]
+  script = "<script src='https://www.googletagservices.com/tag/js/gpt.js'>googletag.pubads().definePassback('/1360046/MDR-middle-GADGET', [[300, 100], [300, 250]]).display();</script>"
+
   # Footer section
   [params.footer]
     enable = true
