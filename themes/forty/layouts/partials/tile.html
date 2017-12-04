@@ -1,5 +1,13 @@
 {{ "<!-- Header -->" | safeHTML }}
     <section id="one" class="tiles">
+
+    {{ range .Site.Params.Tiles.AdsTop }}
+        <article>            
+        <script src='https://www.googletagservices.com/tag/js/gpt.js'>
+          googletag.pubads().definePassback('/1360046/MDR-middle-GADGET', [[300, 100], [300, 250]]).display();
+        </script>
+        </article>
+    {{ end }}
         {{ range .Site.Params.Tiles.showcase }}
         <article>
             <span class="image">
@@ -8,7 +16,16 @@
             <header class="major">
                 <h3><a href="{{ .url | absURL }}" class="link">{{ .title }}</a></h3>
                 <p>{{ .subtitle }}</p>
-            </header>
+            </header> 
         </article>
         {{ end }}
+
+
+    {{ range .Site.Params.Tiles.AdsBottom }}
+        <article>
+        <script src='https://www.googletagservices.com/tag/js/gpt.js'>
+          googletag.pubads().definePassback('/1360046/footer-gadgetuni', [[300, 100], [300, 250]]).display();
+        </script>
+        </article>
+    {{ end }}
     </section>
