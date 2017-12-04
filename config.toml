@@ -19,7 +19,7 @@ googleAnalytics = ""
   name = "Your name"
   description = "Your description"
 
-  # Link custom assets relative to /static
+  # Link custom assets relative to /static 
   custom_css = []
   custom_js  = []
   favicon    = "favicon.ico"
