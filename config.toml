@@ -1,103 +1,260 @@
+# Site settings
 baseURL = "http://lifestyle.gadgetuni.com/"
-googleAnalytics = ""
 languageCode = "en-us"
+title = "Forty"
 theme = "forty"
-title = "Forty"
+
+# Enter your tracking code to enable Google Analytics 
+googleAnalytics = ""
+
 [params]
-custom_css = []
-custom_js = []
-description = "Your description"
-favicon = "favicon.ico"
-image = ""
-name = "Your name"
-[params.banner]
-buttontext = "Get Started"
-subtitle = "Our mission at Gadgetuni is to create a life less complicated for all our customers and at the same time as helping hand in lifestyle optimization."
-title = "GadgetUni"
-[params.contact]
-buttonclear = "Clear"
-buttonsend = "Send message"
-enable = true
-[[params.contact.address]]
-city = "City, ST 00000"
-country = "Country"
-street = "Street"
-title = "Address"
-[[params.contact.email]]
-email = "example@domain.com"
-title = "Email"
-[[params.contact.phone]]
-phone = "(000) 000-0000 x1234"
-title = "Phone"
-[params.error404]
-heading = "Page couldn't be found"
-text = "Please visit [this page](/)"
-[params.footer]
-copyright = "2017 GadgetUni v0.2"
-enable = true
-[[params.footer.social]]
-icon = "fa-facebook"
-label = "Facebook"
-url = "https://facebook.com/gadgetuni"
-[[params.footer.social]]
-icon = "fa-instagram"
-label = "Instagram"
-url = "https://www.instagram.com/gadgetuni"
-[params.homepagebottom]
-enable = true
-[params.homepagetop]
-enable = true
-[params.inpageads]
-enable = true
-[params.navigation]
-menu = "Menu"
-subtitle = "By HTML5 Up"
-title = "Forty"
-[[params.navigation.button1]]
-name = "Get Started"
-url = "blogs"
-[[params.navigation.button2]]
-name = "Log In"
-url = "#"
-[[params.navigation.links]]
-name = "Home"
-url = "#"
-[[params.navigation.links]]
-name = "Blogs"
-url = "blogs"
-[[params.navigation.links]]
-name = "Products"
-url = "products/"
-[params.tiles]
-enable = true
-[[params.tiles.showcase]]
-image = "New-3-Season.jpg"
-subtitle = "Imagine yourself on a beautiful beach, or next to the..."
-title = "Inflatable Sofa"
-url = "products/inflatable-sofa"
-[[params.tiles.showcase]]
-image = "Roller-Sushi-Roll-Mold-Making-Kit-Tools-Sushi-Bazooka-Rice-Meat-Vegetables-DIY-Making-Kitchen-Gadgets_d024680b-0afd-411a-8045-f1e35aad89d8_2000x.jpg"
-subtitle = "You don’t know what to prepare for a dinner..."
-title = "Sushi Bazooka"
-url = "blogs/bazooka"
-[[params.tiles.showcase]]
-image = "blue_2000x.jpg"
-subtitle = "50% OFF LIMITED TIME OFFER"
-title = "Portable Blender"
-url = "products/blender"
-[[params.tiles.showcase]]
-image = "blog2.jpg"
-subtitle = "Here in Gadgetuni, we’ve found some items that can help to improve ..."
-title = "TOP 5 GADGETS FOR HEALTHY LIFESTYLE"
-url = "blogs/top-5-gadgets-lifestyle"
-[[params.tiles.showcase]]
-image = "blog1.jpeg"
-subtitle = "Some of us love to travel alone, the others go with ..."
-title = "TOP GADGETS FOR SURVIVING A ROAD TRIP"
-url = "blogs/top-5-gadgets-survival"
-[params.two]
-buttontext = "Get Started"
-enable = true
-subtitle = "For questions regarding our products or anything we can help with send us an email at support@gadgetuni.com or contact us on Facebook!"
-title = "About Us"
-url = "blogs"
+  # You can use Markdown syntax for urls [text](//url.to/source)
+  # To create multi-line text in strings use the """example Text""" format
+  #
+  # All icons using Fontawesome's icon font. Look at fontawesome.io/icons
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # Provide your metadata here.
+  name = "Your name"
+  description = "Your description"
+
+  # Link custom assets relative to /static
+  custom_css = []
+  custom_js  = []
+  favicon    = "favicon.ico"
+
+  # Just a custom image variable, please define it in .md files for content.
+  image = ""
+
+  # 404 error customization
+  [params.error404]
+    heading = "Page couldn't be found"
+    text = "Please visit [this page](/)"
+
+  # Navigation Section
+  [params.navigation]
+    title = "Forty"
+    subtitle = "By HTML5 Up"
+    menu = "Menu"
+    # Optional logo as brand stored in img/
+    # logo = "logo.png"
+
+    [[params.navigation.links]]
+      name = "Home"
+      url = "#"
+
+    [[params.navigation.links]]
+      name = "Blogs"
+      url = "blogs"
+
+    [[params.navigation.links]]
+      name = "Products"
+      url = "products/"
+
+    # [[params.navigation.links]]
+    #  name = "Elements"
+    #  url = "elements.html"
+
+    # Add custom links here by uncommenting code below. To remove links just delete
+    # the [[params.navigation.links]] map associated with that link. Copy and paste
+    # code below if you need more links. Buttons work in the same way.
+    # [[params.navigation.links]]
+    #    name = "NameOfLink"
+    #    url = "UrlOfLink"
+
+    # Button Style 1
+    [[params.navigation.button1]]
+      name = "Get Started"
+      url = "blogs"
+
+    # Button Style 2
+    [[params.navigation.button2]]
+      name = "Log In"
+      url = "#"
+
+
+  # Banner section
+  [params.banner]
+    # To change the background image on the homepage banner, replace 'banner.jpg' in
+    # the 'static/img' folder.
+    title = "GadgetUni"
+    subtitle = "Our mission at Gadgetuni is to create a life less complicated for all our customers and at the same time a helping hand in lifestyle optimization."
+    buttonText = "Get Started"
+
+
+  # Tiles Section
+  [params.tiles]
+    enable = true
+    # Display your showcases here.
+
+    [[params.tiles.showcase]]
+      title = "TOP 5 GADGETS FOR HEALTHY LIFESTYLE"
+      subtitle = "Here in Gadgetuni, we’ve found some items that can help to improve ..."
+      image = "blog2.jpg"
+      url = "blogs/top-5-gadgets-lifestyle"
+
+    [[params.tiles.AdsTop]]
+      title = "Ad Space"
+      subtitle = ""
+      image = "test"
+      url = ""
+      isAd = "true"
+
+    [[params.tiles.showcase]]
+      title = "TOP GADGETS FOR SURVIVING A ROAD TRIP"
+      subtitle = "Some of us love to travel alone, the others go with ..."
+      image = "blog1.jpeg"
+      url = "blogs/top-5-gadgets-survival"
+
+    [[params.tiles.showcase]]
+      title = "Inflatable Sofa"
+      subtitle = "Imagine yourself on a beautiful beach, or next to the..."
+      image = "New-3-Season.jpg"
+      url = "products/inflatable-sofa"
+
+    [[params.tiles.showcase]]
+      title = "Sushi Bazooka"
+      subtitle = "You don’t know what to prepare for a dinner..."
+      image = "Roller-Sushi-Roll-Mold-Making-Kit-Tools-Sushi-Bazooka-Rice-Meat-Vegetables-DIY-Making-Kitchen-Gadgets_d024680b-0afd-411a-8045-f1e35aad89d8_2000x.jpg"
+      url = "products/bazooka"
+
+    [[params.tiles.showcase]]
+      title = "Portable Blender"
+      subtitle = "50% OFF LIMITED TIME OFFER"
+      image = "blue_2000x.jpg" 
+      url = "products/blender"
+
+        [[params.tiles.showcase]]
+      title = "INFUSION WATER BOTTLE"
+      subtitle = "Are you going to the gym, yoga classes or any sports activities? If your answer is ..."
+      image = "Water-Bottle-H20.jpg"
+      url = "products/infusion-water-bottle"
+
+    [[params.tiles.showcase]]
+      title = "Foldable Picnic Mat"
+      subtitle = "Whenever you decide to sit somewhere during your hike or while camping, but you don't want to sit on the bare ground, we have something for you..."
+      image = "110-150cm-Camping-mat.jpg"
+      url = "products/foldable-picnic-mat"
+
+    [[params.tiles.AdsBottom]]
+      title = "Ad Space"
+      subtitle = ""
+      image = "test"
+      url = ""
+      isAd = "true"
+
+
+    # You can make more showcases by copy and pasting the code above
+
+
+  [params.blog]
+    # All blogs defined in their own files. You can find example blogs
+    # at 'exampleSite/content/blogs'. Copy the 'blogs' folder into the 'content' directory
+    # at the root of this Hugo site.
+    # For more informtion take a look at the README.
+    # To add more blogs just copy and paste the code.
+
+  # Section Type Two
+  [params.two]
+    enable = true
+    title = "About Us"
+    subtitle = "For questions regarding our products or anything we can help with send us an email at support@gadgetuni.com or contact us on Facebook!"
+    buttonText = "Get Started"
+    url = "blogs" 
+
+
+  # Contact section
+  [params.contact]
+    enable = true
+    buttonSend = "Send message"
+    buttonClear = "Clear"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below and uncomment
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    # formEmail = "example@domain.com"
+
+    # Contact Section
+    # You can add multiple emails, phone numbers, or addresses
+    # by copying the corresponding map with frontmatter code.
+    [[params.contact.email]]
+    title = "Email"
+    email = "example@domain.com"
+
+    [[params.contact.phone]]
+    title = "Phone"
+    phone = "(000) 000-0000 x1234"
+
+    [[params.contact.address]] 
+    title = "Address"
+    street = "Street"
+    city = "City, ST 00000"
+    country = "Country"
+
+  # inPage Ads
+
+  [params.inPageAds]
+  enable = true
+
+  [[params.inPageAds.AdUrl]]
+  script = "<script src='https://www.googletagservices.com/tag/js/gpt.js'>googletag.pubads().definePassback('/1360046/MDR-middle-GADGET', [[300, 100], [300, 250]]).display();</script>"
+
+    # Homepage Top Ads
+
+  [params.HomepageTop]
+  enable = true
+
+  [[params.HomepageTop.AdUrl]]
+  script = "<script src='https://www.googletagservices.com/tag/js/gpt.js'>googletag.pubads().definePassback('/1360046/MDR-middle-GADGET', [[300, 100], [300, 250]]).display();</script>"
+
+    # Homepage Bottom Ads
+
+  [params.HomepageBottom]
+  enable = true
+
+  [[params.HomepageBottom.AdUrl]]
+  script = "<script src='https://www.googletagservices.com/tag/js/gpt.js'>googletag.pubads().definePassback('/1360046/footer-gadgetuni', [[300, 100], [300, 250]]).display();</script>"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = "2017 GadgetUni"
+
+    #[[params.footer.social]]
+    # icon = "fa-twitter"
+    # url= "https://www.twitter.com"
+    # label = "Twitter"
+
+    [[params.footer.social]]
+      icon = "fa-facebook"
+      url= "https://facebook.com/gadgetuni"
+      label = "Facebook"
+
+    [[params.footer.social]]
+      icon = "fa-instagram"
+      url= "https://www.instagram.com/gadgetuni"
+      label = "Instagram"
+    
+    #[[params.footer.social]]
+    # icon = "fa-github"
+    # url= "https://www.github.com"
+    # label = "GitHub"
+
+    #[[params.footer.social]]
+    # icon = "fa-linkedin"
+    # url= "https://www.linkedin.com"
+    # label = "LinkedIn"
+
+    #[[params.footer.quicklinks]]
+    # text = "Design: "
+    # url= "https://www.html5up.net"
+    # alt = "HTML5 UP"
