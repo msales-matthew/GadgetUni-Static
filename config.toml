@@ -6,7 +6,7 @@ title = "GadgetUni Lifestyle"
 [params]
 custom_css = []
 custom_js = []
-description = "Your description"
+description = "Our mission at Gadgetuni is to create a life less complicated for all our customers and at the same time a helping hand in lifestyle optimization."
 favicon = "favicon.ico"
 image = ""
 name = "GadgetUni"
@@ -58,7 +58,7 @@ script = "<script src='https://www.googletagservices.com/tag/js/gpt.js'>googleta
 [params.navigation]
 menu = "Menu"
 subtitle = "By HTML5 Up"
-title = "Forty"
+title = "GadgetUni"
 [[params.navigation.button1]]
 name = "Get Started"
 url = "blogs"
@@ -102,27 +102,27 @@ url = "blogs/top-5-gadgets-survival"
 image = "New-3-Season.jpg"
 subtitle = "Imagine yourself on a beautiful beach, or next to the..."
 title = "Inflatable Sofa"
-url = "products/inflatable-sofa"
+url = "https://gadgetuni.com/collections/travel/products/inflatable-sofa"
 [[params.tiles.showcase]]
 image = "Roller-Sushi-Roll-Mold-Making-Kit-Tools-Sushi-Bazooka-Rice-Meat-Vegetables-DIY-Making-Kitchen-Gadgets_d024680b-0afd-411a-8045-f1e35aad89d8_2000x.jpg"
 subtitle = "You don’t know what to prepare for a dinner..."
 title = "Sushi Bazooka"
-url = "products/bazooka"
+url = "https://gadgetuni.com/collections/lifestyle/products/sushi-bazooka"
 [[params.tiles.showcase]]
 image = "blue_2000x.jpg"
 subtitle = "50% OFF LIMITED TIME OFFER"
 title = "Portable Blender"
-url = "products/blender"
+url = "https://gadgetuni.com/collections/lifestyle/products/portable-blender-bottle"
 [[params.tiles.showcase]]
 image = "110-150cm-Camping-mat.jpg"
 subtitle = "Whenever you decide to sit somewhere during your hike or while camping, but you don't want to sit on the bare ground, we have something for you..."
 title = "Foldable Picnic Mat"
-url = "products/foldable-picnic-mat"
+url = "https://gadgetuni.com/collections/travel/products/foldable-picnic-mat"
 [[params.tiles.showcase]]
 image = "Water-Bottle-H20.jpg"
 subtitle = "Are you going to the gym, yoga classes or any sports activities? If your answer is ..."
 title = "INFUSION WATER BOTTLE"
-url = "products/infusion-water-bottle"
+url = "https://gadgetuni.com/collections/lifestyle/products/infusion-water-bottle"
 [params.two]
 buttontext = "Get Started"
 enable = true
