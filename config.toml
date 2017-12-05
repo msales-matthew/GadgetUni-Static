@@ -58,7 +58,7 @@ script = "<script src='https://www.googletagservices.com/tag/js/gpt.js'>googleta
 [params.navigation]
 menu = "Menu"
 subtitle = "By HTML5 Up"
-title = "GadgetUni"
+title = "Forty"
 [[params.navigation.button1]]
 name = "Get Started"
 url = "blogs"
