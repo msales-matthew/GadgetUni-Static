@@ -521,10 +521,6 @@
 			margin-left: 8.33333%;
 		}
 
-		.adSpace{
-			display: none;
-		}
-
 	}
 
 	@media screen and (max-width: 1280px) {
@@ -740,10 +736,6 @@
 			margin-left: 8.33333%;
 		}
 
-		.adSpace{
-			display: none;
-		}
-
 	}
 
 	@media screen and (max-width: 980px) {
@@ -957,10 +949,6 @@
 
 		.\-1u\28medium\29 {
 			margin-left: 8.33333%;
-		}
-
-		.adSpace{
-			display: none;
 		}
 
 	}
