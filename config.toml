@@ -18,7 +18,7 @@ title = "GadgetUni"
 buttonclear = "Clear"
 buttonsend = "Send message"
 enable = true
-[[params.contact.address]]
+[[params.contact.address]] 
 city = "City, ST 00000"
 country = "Country"
 street = "Street"
