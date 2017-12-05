@@ -12,7 +12,7 @@ image = ""
 name = "Your name"
 [params.banner]
 buttontext = "Get Started"
-subtitle = "Our mission at Gadgetuni is to create a life less complicated for all our customers and at the same time as helping hand in lifestyle optimization."
+subtitle = "Our mission at Gadgetuni is to create a life less complicated for all our customers and at the same time a helping hand in lifestyle optimization."
 title = "GadgetUni"
 [params.contact]
 buttonclear = "Clear"
@@ -33,7 +33,7 @@ title = "Phone"
 heading = "Page couldn't be found"
 text = "Please visit [this page](/)"
 [params.footer]
-copyright = "2017 GadgetUni v0.2"
+copyright = "2017 GadgetUni"
 enable = true
 [[params.footer.social]]
 icon = "fa-facebook"
@@ -45,10 +45,16 @@ label = "Instagram"
 url = "https://www.instagram.com/gadgetuni"
 [params.homepagebottom]
 enable = true
+[[params.homepagebottom.adurl]]
+script = "<script src='https://www.googletagservices.com/tag/js/gpt.js'>googletag.pubads().definePassback('/1360046/footer-gadgetuni', [[300, 100], [300, 250]]).display();</script>"
 [params.homepagetop]
 enable = true
+[[params.homepagetop.adurl]]
+script = "<script src='https://www.googletagservices.com/tag/js/gpt.js'>googletag.pubads().definePassback('/1360046/MDR-middle-GADGET', [[300, 100], [300, 250]]).display();</script>"
 [params.inpageads]
 enable = true
+[[params.inpageads.adurl]]
+script = "<script src='https://www.googletagservices.com/tag/js/gpt.js'>googletag.pubads().definePassback('/1360046/MDR-middle-GADGET', [[300, 100], [300, 250]]).display();</script>"
 [params.navigation]
 menu = "Menu"
 subtitle = "By HTML5 Up"
@@ -70,21 +76,18 @@ name = "Products"
 url = "products/"
 [params.tiles]
 enable = true
-[[params.tiles.showcase]]
-image = "New-3-Season.jpg"
-subtitle = "Imagine yourself on a beautiful beach, or next to the..."
-title = "Inflatable Sofa"
-url = "products/inflatable-sofa"
-[[params.tiles.showcase]]
-image = "Roller-Sushi-Roll-Mold-Making-Kit-Tools-Sushi-Bazooka-Rice-Meat-Vegetables-DIY-Making-Kitchen-Gadgets_d024680b-0afd-411a-8045-f1e35aad89d8_2000x.jpg"
-subtitle = "You don’t know what to prepare for a dinner..."
-title = "Sushi Bazooka"
-url = "blogs/bazooka"
-[[params.tiles.showcase]]
-image = "blue_2000x.jpg"
-subtitle = "50% OFF LIMITED TIME OFFER"
-title = "Portable Blender"
-url = "products/blender"
+[[params.tiles.adsbottom]]
+image = "test"
+isAd = true
+subtitle = ""
+title = "Ad Space"
+url = ""
+[[params.tiles.adstop]]
+image = "test"
+isAd = true
+subtitle = ""
+title = "Ad Space"
+url = ""
 [[params.tiles.showcase]]
 image = "blog2.jpg"
 subtitle = "Here in Gadgetuni, we’ve found some items that can help to improve ..."
@@ -95,6 +98,31 @@ image = "blog1.jpeg"
 subtitle = "Some of us love to travel alone, the others go with ..."
 title = "TOP GADGETS FOR SURVIVING A ROAD TRIP"
 url = "blogs/top-5-gadgets-survival"
+[[params.tiles.showcase]]
+image = "New-3-Season.jpg"
+subtitle = "Imagine yourself on a beautiful beach, or next to the..."
+title = "Inflatable Sofa"
+url = "products/inflatable-sofa"
+[[params.tiles.showcase]]
+image = "Roller-Sushi-Roll-Mold-Making-Kit-Tools-Sushi-Bazooka-Rice-Meat-Vegetables-DIY-Making-Kitchen-Gadgets_d024680b-0afd-411a-8045-f1e35aad89d8_2000x.jpg"
+subtitle = "You don’t know what to prepare for a dinner..."
+title = "Sushi Bazooka"
+url = "products/bazooka"
+[[params.tiles.showcase]]
+image = "blue_2000x.jpg"
+subtitle = "50% OFF LIMITED TIME OFFER"
+title = "Portable Blender"
+url = "products/blender"
+[[params.tiles.showcase]]
+image = "110-150cm-Camping-mat.jpg"
+subtitle = "Whenever you decide to sit somewhere during your hike or while camping, but you don't want to sit on the bare ground, we have something for you..."
+title = "Foldable Picnic Mat"
+url = "products/foldable-picnic-mat"
+[[params.tiles.showcase]]
+image = "Water-Bottle-H20.jpg"
+subtitle = "Are you going to the gym, yoga classes or any sports activities? If your answer is ..."
+title = "INFUSION WATER BOTTLE"
+url = "products/infusion-water-bottle"
 [params.two]
 buttontext = "Get Started"
 enable = true
