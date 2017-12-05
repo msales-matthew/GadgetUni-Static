@@ -89,16 +89,6 @@ subtitle = ""
 title = "Ad Space"
 url = ""
 [[params.tiles.showcase]]
-image = "Water-Bottle-H20.jpg"
-subtitle = "Are you going to the gym, yoga classes or any sports activities? If your answer is ..."
-title = "INFUSION WATER BOTTLE"
-url = "products/infusion-water-bottle"
-[[params.tiles.showcase]]
-image = "110-150cm-Camping-mat.jpg"
-subtitle = "Whenever you decide to sit somewhere during your hike or while camping, but you don't want to sit on the bare ground, we have something for you..."
-title = "Foldable Picnic Mat"
-url = "products/foldable-picnic-mat"
-[[params.tiles.showcase]]
 image = "blog2.jpg"
 subtitle = "Here in Gadgetuni, we’ve found some items that can help to improve ..."
 title = "TOP 5 GADGETS FOR HEALTHY LIFESTYLE"
@@ -123,6 +113,16 @@ image = "blue_2000x.jpg"
 subtitle = "50% OFF LIMITED TIME OFFER"
 title = "Portable Blender"
 url = "products/blender"
+[[params.tiles.showcase]]
+image = "110-150cm-Camping-mat.jpg"
+subtitle = "Whenever you decide to sit somewhere during your hike or while camping, but you don't want to sit on the bare ground, we have something for you..."
+title = "Foldable Picnic Mat"
+url = "products/foldable-picnic-mat"
+[[params.tiles.showcase]]
+image = "Water-Bottle-H20.jpg"
+subtitle = "Are you going to the gym, yoga classes or any sports activities? If your answer is ..."
+title = "INFUSION WATER BOTTLE"
+url = "products/infusion-water-bottle"
 [params.two]
 buttontext = "Get Started"
 enable = true
