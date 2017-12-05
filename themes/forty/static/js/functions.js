@@ -1,7 +1,7 @@
 //Remove Ad spaces on desktop
 $(window).resize(function() {
 	   if($(window).width() >= 1280) {
-        $('.adSpace').hide();
+        $('.adSpace').remove();
     }else {
 
     	$('.adSpace').show();
