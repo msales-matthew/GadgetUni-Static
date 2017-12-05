@@ -10,7 +10,6 @@ description = "Your description"
 favicon = "favicon.ico"
 image = ""
 name = "Your name"
-####
 [params.banner]
 buttontext = "Get Started"
 subtitle = "Our mission at Gadgetuni is to create a life less complicated for all our customers and at the same time a helping hand in lifestyle optimization."
