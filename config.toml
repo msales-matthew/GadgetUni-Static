@@ -1,12 +1,12 @@
 baseURL = "http://lifestyle.gadgetuni.com/"
-googleAnalytics = ""
+googleAnalytics = "UA-109623451-3"
 languageCode = "en-us"
 theme = "forty"
-title = "GadgetUni"
+title = "GadgetUni Lifestyle"
 [params]
 custom_css = []
 custom_js = []
-description = "Your description"
+description = "Our mission at Gadgetuni is to create a life less complicated for all our customers and at the same time a helping hand in lifestyle optimization."
 favicon = "favicon.ico"
 image = ""
 name = "GadgetUni"
