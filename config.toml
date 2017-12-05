@@ -86,7 +86,7 @@ googleAnalytics = ""
   # Tiles Section
   [params.tiles]
     enable = true
-    # Display your showcases here.
+
     [[params.tiles.showcase]]
       title = "INFUSION WATER BOTTLE"
       subtitle = "Are you going to the gym, yoga classes or any sports activities? If your answer is ..."
