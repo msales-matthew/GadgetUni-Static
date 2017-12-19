@@ -5,7 +5,7 @@
 	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 	{{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
 	{{ .Hugo.Generator }}
-	<title>{{ .Title }}{{ if not .IsHome }} &middot; {{ .Site.Title }}{{ end }}</title>
+	<title>{{ .Site.Title }}{{ .Title }}{{ if not .IsHome }} &middot; {{ .Site.Title }}{{ end }}</title>
 	{{ "<!-- Stylesheets -->" | safeHTML }}
 	<!--[if lte IE 8]><script src="js/ie/html5shiv.js"></script><![endif]-->
 	<link rel="stylesheet" href="{{ "css/main.css" | absURL}}"/>
@@ -17,7 +17,7 @@
 	{{ end }}
 
 	{{ "<!-- Custom Fonts -->" | safeHTML }}
-	<link href="{{ "css/font-awesome.min.css" | absURL }}" rel="stylesheet" type="text/css">
+	<link href="{{ "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" | absURL }}" rel="stylesheet" type="text/css">
 
 	{{ with .Site.Params.favicon }}
 	<link rel="shortcut icon" type="image/x-icon" href="{{ . | absURL }}">

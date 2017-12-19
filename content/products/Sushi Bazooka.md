@@ -16,3 +16,4 @@ draft: false
 <p>How does it work? Just add the ingredients you’re willing to have inside your maki rolls and plunge the rice onto a nori sheet. Ready!&nbsp;</p>
 <p>The set includes a sushi tube, plunger &amp; end cap and measures 12” by 2.5”</p>
 <p><br> Important:<br> Shipping to US takes between 20&nbsp;to 35 business days.&nbsp;<br> International Shipping will take longer.&nbsp;</p>
+<a href="https://gadgetuni.com/collections/lifestyle/products/sushi-bazooka?utm_source=lifestyle&utm_medium=link" target="_blank" title="Infusion Water Bottle" rel="noopener noreferrer">Visit more details on shop page</a>

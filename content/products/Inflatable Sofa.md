@@ -19,3 +19,4 @@ draft: false
 <p><u>Important:</u></p>
 <meta charset="utf-8">
 <p><span>S</span><span>hipping to US takes between 10 to 25 business days.&nbsp;</span><br><span>International Shipping will take longer.&nbsp;</span></p>
+<a href="https://gadgetuni.com/collections/travel/products/inflatable-sofa?utm_source=lifestyle&utm_medium=link" target="_blank" title="Infusion Water Bottle" rel="noopener noreferrer">Visit more details on shop page</a>

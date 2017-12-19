@@ -17,3 +17,5 @@ draft: false
 <p><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;"><u>Important:</u><br></span></span></p>
 <meta charset="utf-8"><meta charset="utf-8">
 <p><span style="font-size: 14px;"><span style="font-family: arial,helvetica,sans-serif;"><span>S</span><span>hipping to US takes between 12 to 25 business days.&nbsp;</span><br><span>International Shipping will take longer.&nbsp;</span><br></span></span></p>
+<p>
+<a href="https://gadgetuni.com/products/infusion-water-bottle?utm_source=lifestyle&utm_medium=link" target="_blank" title="Infusion Water Bottle" rel="noopener noreferrer">Visit more details on shop page</a></p>
